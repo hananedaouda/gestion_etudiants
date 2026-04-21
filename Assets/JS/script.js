@@ -29,3 +29,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+
+
+
+// Confirmation avant suppression
+document.querySelectorAll('.supprimer').forEach(function(lien) {
+    lien.addEventListener('click', function(e) {
+        if (!confirm('Voulez-vous vraiment supprimer cet étudiant ?')) {
+            e.preventDefault();
+        }
+    });
+});

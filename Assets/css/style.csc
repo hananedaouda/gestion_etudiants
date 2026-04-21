@@ -55,12 +55,6 @@ button:hover {
     background: #1a252f;
 }
 
-.error {
-    color: red;
-    font-size: 13px;
-}
-
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -90,4 +84,9 @@ a {
 
 a.supprimer {
     color: #e74c3c;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
 }

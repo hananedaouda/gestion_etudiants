@@ -59,3 +59,35 @@ button:hover {
     color: red;
     font-size: 13px;
 }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+a {
+    margin-right: 8px;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a.supprimer {
+    color: #e74c3c;
+}
